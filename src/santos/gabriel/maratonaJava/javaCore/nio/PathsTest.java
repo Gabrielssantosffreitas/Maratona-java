@@ -1,4 +1,4 @@
-package santos.gabriel.maratonaJava.javaCore.path;
+package santos.gabriel.maratonaJava.javaCore.nio;
 
 import java.io.IOException;
 import java.nio.file.*;
