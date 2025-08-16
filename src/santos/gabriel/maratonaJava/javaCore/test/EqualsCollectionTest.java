@@ -1,6 +1,6 @@
-package santos.gabriel.maratonaJava.colecoes.test;
+package santos.gabriel.maratonaJava.javaCore.test;
 
-import santos.gabriel.maratonaJava.colecoes.test.dominio.Telefone;
+import santos.gabriel.maratonaJava.javaCore.test.dominio.Telefone;
 
 public class EqualsCollectionTest {
     public static void main(String[] args) {

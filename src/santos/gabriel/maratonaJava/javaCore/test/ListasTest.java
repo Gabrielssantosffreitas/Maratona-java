@@ -1,4 +1,4 @@
-package santos.gabriel.maratonaJava.colecoes.test;
+package santos.gabriel.maratonaJava.javaCore.test;
 
 import java.util.ArrayList;
 import java.util.List;

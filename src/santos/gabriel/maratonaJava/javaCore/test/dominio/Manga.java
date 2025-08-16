@@ -1,4 +1,4 @@
-package santos.gabriel.maratonaJava.colecoes.test.dominio;
+package santos.gabriel.maratonaJava.javaCore.test.dominio;
 
 import java.util.Objects;
 
@@ -6,6 +6,7 @@ public class Manga implements Comparable<Manga>{
     private long id;
     private String nome;
     private int episodios;
+    private  int quantidade;
 
     public Manga() {
     }
@@ -16,14 +17,30 @@ public class Manga implements Comparable<Manga>{
         this.episodios = episodios;
     }
 
+    public Manga(long id, String nome, int episodios, int quantidade) {
+        this.id = id;
+        this.nome = nome;
+        this.episodios = episodios;
+        this.quantidade = quantidade;
+    }
+
 
     @Override
     public String toString() {
-        return "\nManga{" +
+        return "Manga{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", episodios=" + episodios +
+                ", quantidade=" + quantidade +
                 '}';
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
     }
 
     @Override

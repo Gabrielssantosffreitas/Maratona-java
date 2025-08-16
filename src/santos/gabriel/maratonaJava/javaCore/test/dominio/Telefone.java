@@ -1,4 +1,4 @@
-package santos.gabriel.maratonaJava.colecoes.test.dominio;
+package santos.gabriel.maratonaJava.javaCore.test.dominio;
 
 public class Telefone {
     private String marca;

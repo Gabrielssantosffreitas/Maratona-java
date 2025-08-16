@@ -1,6 +1,6 @@
-package santos.gabriel.maratonaJava.colecoes.test;
+package santos.gabriel.maratonaJava.javaCore.test;
 
-import santos.gabriel.maratonaJava.colecoes.test.dominio.Manga;
+import santos.gabriel.maratonaJava.javaCore.test.dominio.Manga;
 
 import java.util.*;
 
@@ -26,5 +26,9 @@ public class BuscaBinaria {
         // caso queira usar outra ordenação use a ordenação com parametro
         mangas.sort(new MangaSortingComparotorName1());
         System.out.println(Collections.binarySearch(mangas, new Manga(2, "dragonboll", 110),new MangaSortingComparotorName1()));
+
+
+
+
     }
 }

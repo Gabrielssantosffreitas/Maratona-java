@@ -1,6 +1,6 @@
-package santos.gabriel.maratonaJava.colecoes.test;
+package santos.gabriel.maratonaJava.javaCore.test;
 
-import santos.gabriel.maratonaJava.colecoes.test.dominio.Manga;
+import santos.gabriel.maratonaJava.javaCore.test.dominio.Manga;
 
 import java.util.ArrayList;
 import java.util.Collections;
