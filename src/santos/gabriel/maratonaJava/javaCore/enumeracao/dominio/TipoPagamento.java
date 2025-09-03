@@ -32,7 +32,7 @@ public enum TipoPagamento {
         for (TipoPagamento tipo : values()){
             if (tipo.VALOR == valor){
                 return tipo;
-            }
+            };
 
         }
         return null;

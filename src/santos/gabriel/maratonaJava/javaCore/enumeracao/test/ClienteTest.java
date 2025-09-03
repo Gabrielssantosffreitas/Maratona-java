@@ -13,6 +13,7 @@ public class ClienteTest {
 
         Cliente cliente2 = new Cliente("Daniel", "PESSOA FISICA", TipoCliente.PESSOA_FISICA, TipoPagamento.CREDITO);
         System.out.println(cliente2);
+        System.out.println(cliente2.getPagamento().desconto(10));
         System.out.println(TipoPagamento.tipoPorValor(2));
 
     }

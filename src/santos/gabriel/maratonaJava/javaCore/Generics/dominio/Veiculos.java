@@ -12,5 +12,19 @@ public  abstract  class Veiculos {
         Preco = preco;
     }
 
+    public String getNome() {
+        return nome;
+    }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public double getPreco() {
+        return Preco;
+    }
+
+    public void setPreco(double preco) {
+        Preco = preco;
+    }
 }

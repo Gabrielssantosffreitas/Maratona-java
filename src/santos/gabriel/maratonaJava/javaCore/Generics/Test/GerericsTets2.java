@@ -22,15 +22,16 @@ public class GerericsTets2 {
 
             // animals.add( new Gato()); -> isso da erro que quando usamos extends criamos um contrato com o java disedo nao vamos poder mais add coisas
     }
-    private  static void  mostraListaDeCachorros (List<? super Cachorro> objects){// pega tudo as classe mae O seja de chachoro -> animal -> obj
+    private  static void mostraListaDeCachorros (List<? super Cachorro> objects){// pega tudo as classe mae O seja de chachoro -> animal -> obj
+
         for (Object object: objects){// sou obrigado q tudo que eu for fazer tem que ser um objeto  e dps fazer um casting
             if (object instanceof Animal){
                 Animal animal  = (Animal) object;
                 animal.consuta();
             }
-
-            objects.add(new Cachorro());
         }
+        objects.add(new Cachorro());
+
 
     }
 }
